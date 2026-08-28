@@ -1,4 +1,4 @@
-#Hello! 
+*Hello! 
 This is an app with the goal to email a user a reminder to water their outdoor plants. 
 
 User Input: email, county 
