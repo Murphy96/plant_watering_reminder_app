@@ -1,9 +1,6 @@
 # Hello! 
-This is an app with the goal to email a user a reminder to water their outdoor plants. 
-
-User Input: email, county 
-
-Output: Email to user with a reminder to water depending on temperature and rainfall the week prior. 
+This is an app prototype in Python which uses a users county to pull current and foretasted weather data from the National Weather Service API, 
+historical data from NCEI, to determine if an outdoor garden needs to be watered based on temperature and precipitation history and forecast, then sends an email to user if the garden needs to be watered.
 
 ## Design 
 
