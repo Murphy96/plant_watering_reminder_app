@@ -1,8 +1,11 @@
 # Hello! 
-This is an app prototype in Python which uses a users county to pull current and foretasted weather data from the National Weather Service API, 
-historical data from NCEI, to determine if an outdoor garden needs to be watered based on temperature and precipitation history and forecast, then sends an email to user if the garden needs to be watered.
+This is an app prototype in with ingestion pipelines in Python, SQL ETL data warehouse architecture, and data algorithms, orchestration function, in Python. This app uses a users' county to pull current and foretasted weather data from the National Weather Service API, 
+historical data from NCEI, the warehouse ETL to remake rainfall data that used to be aggregated within the NWS pipeline but is since broken, then runs an algorithm in Python to determine if an outdoor garden needs to be watered based on temperature and precipitation history and forecast, then sends an email to user if the garden needs to be watered.
 
 ## Design 
+
+
+### Design subject to change as more hiccups in data are found 
 
 ### main.py (orchestration function)
 
